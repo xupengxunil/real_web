@@ -9,7 +9,6 @@ import urllib
 import json
 import random
 from flask import request, g, abort, render_template
-from MySQLdb import ProgrammingError
 
 from saltui import app
 from saltui.consts import RRD_CFS, GRAPH_TYPE_KEY, GRAPH_TYPE_HOST

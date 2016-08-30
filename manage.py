@@ -7,7 +7,7 @@ from saltui import app, db
 manager = Manager(app)
 migrate = Migrate(app, db)
 
-manager.add_command("server",Server(host='172.18.6.13'))
+manager.add_command("server",Server(host='0.0.0.0'))
 manager.add_command('db', MigrateCommand)
 
 @manager.shell
