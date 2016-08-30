@@ -10,4 +10,4 @@ app = Flask(__name__)
 app.config.from_object(DevConfig)
 db = SQLAlchemy(app)
 
-from views import api,index,charts,tables,forms,bootstrap_elements,bootstrap_grid,index_rtl,blank_page
+from views import index
